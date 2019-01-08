@@ -4,8 +4,8 @@ h1 {
 	font-family: Trebuchet MS
 }
 a:link {
-  color: white; 
-  background-color: transparent; 
+  color: white;
+  background-color: transparent;
   text-decoration: none;
 }
 
@@ -34,7 +34,20 @@ ul {
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
+	line-height: 50px;
 }
 .back {
 	background-color: black
+}
+.button {
+  font: Trebuchet MS;
+	font-size: 25px;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 3px 6px 3px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
 }
